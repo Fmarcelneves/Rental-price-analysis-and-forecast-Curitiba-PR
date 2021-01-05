@@ -5,20 +5,6 @@ Created on Tue Jan  5 11:13:04 2021
 @author: fmarc
 """
 
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jan  5 17:15:09 2021
-
-@author: fmarc
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jan  5 11:13:04 2021
-
-@author: fmarc
-"""
-
 #import xgboost as xgb
 import numpy as np 
 import streamlit as st

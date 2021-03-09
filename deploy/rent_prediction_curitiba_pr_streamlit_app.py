@@ -18,7 +18,7 @@ url_map_data = 'https://raw.githubusercontent.com/fmarcelneves/Rental-price-anal
 map_data = gpd.read_file(url_map_data)
 
 
-pickle_file = open("RF_model",“rb”)
+pickle_file = open("RF_model","rb")
 model = pickle.load(pickle_file)
 
 ### Displaying text

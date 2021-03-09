@@ -17,7 +17,9 @@ import pickle
 url_map_data = 'https://raw.githubusercontent.com/fmarcelneves/Rental-price-analysis-and-forecast-Curitiba-PR/main/map_data.geojson'
 map_data = gpd.read_file(url_map_data)
 
-model = pickle.load(open(RF_model, 'rb'))
+
+pickle_file = open("RF_model",“rb”)
+model = pickle.load(pickle_file)
 
 ### Displaying text
 ##The title of your App can be displayed with st.title

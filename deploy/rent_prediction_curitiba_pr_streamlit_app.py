@@ -89,7 +89,7 @@ def main():
     st.sidebar.write("Autor: Felipe Marcel Neves, repositório: https://github.com/fmarcelneves/Rental-price-analysis-and-forecast-Curitiba-PR")
     st.header('Passo 1. Parâmetros iniciais de entrada do usuário')
     quartos = st.select_slider("Número de quartos no apartamento", options=[1, 2, 3, 4, 5], value = 2)
-    areas = st.slider("Área (m2) do Apartamento", rental["areas"].min(), 200, int(rental["areas"].median()))  
+    areas = st.slider("Área (m2) do Apartamento", int(rental["areas"].min()), 200, int(rental["areas"].median()))  
     st.header('Passo 2. Escolha a regional')
     regional = st.selectbox("",('Regional bairro novo',	'Regional boa vista',	'Regional boqueirao', 'Regional cajuru',
                                     'Regional cic',	'Regional matriz', 'Regional pinheirinho', 'Regional portao',

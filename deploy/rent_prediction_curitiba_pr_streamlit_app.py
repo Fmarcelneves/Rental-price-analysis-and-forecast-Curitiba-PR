@@ -15,6 +15,9 @@ import geopandas as gpd
 import plotly.graph_objs as go
 import pickle 
 
+url = 'https://raw.githubusercontent.com/fmarcelneves/Rental-price-analysis-and-forecast-Curitiba-PR/main/rental_data.csv'
+rental = pd.read_csv(url)
+
 url_map_data = 'https://raw.githubusercontent.com/fmarcelneves/Rental-price-analysis-and-forecast-Curitiba-PR/main/map_data.geojson'
 map_data = gpd.read_file(url_map_data)
 

@@ -12,7 +12,6 @@ import sklearn
 import pandas as pd
 import streamlit as st
 import geopandas as gpd
-import plotly
 import plotly.graph_objs as go
 import pickle 
 
